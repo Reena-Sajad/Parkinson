@@ -1,0 +1,264 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+a {
+  color: #2b2207;
+  text-decoration: none;
+}
+
+.container {
+max-width: 1600px;
+margin: auto;
+padding: 0px 30px;
+}
+
+.color-heading {
+  color: #3b5c1d;
+}
+
+.color-text {
+  color: #538029;
+}
+
+.btn {
+  display: inline-block;
+  padding: 20px;
+  background: #2b2207;
+  color: #d3ccb7;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.bg-main {
+  background: #538029;
+  color: #2b2207;
+}
+
+.bg-dark {
+  background: #2b2207;
+  color: #b6ab88;
+}
+
+.bg-light {
+  background: #d3ccb7;
+  color: #2b2207;
+}
+
+.clr {
+  clear: both;
+}
+
+/* Navbar */
+#navbar {
+  background: #2b2207;
+  overflow: auto;
+}
+
+.logo img {
+  height: 35px;
+  float: left;
+  margin: 20px;
+}
+
+#navbar a {
+  color: #d3ccb7;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 30px;
+}
+
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 30px;
+}
+
+#navbar ul li a:hover {
+  background: #7b6729;
+  color: #d3ccb7;
+  
+}
+
+/* Showcase */
+#showcase {
+  background: url('../img/hands.jpeg') no-repeat center center/cover;
+  height: 1000px;
+  color: #2b2207;
+}
+
+#showcase .showcase-content {
+  text-align: center;
+  padding: 120px;
+}
+
+#showcase h1 {
+  font-size: 60px;
+}
+
+#showcase h2 {
+  font-size: 50px;
+  padding: 30px 0;
+}
+
+#showcase p {
+  font-size: 25px;
+  line-height: 2em;
+  padding-bottom: 20px;
+  margin: 20px 20px;
+  
+}
+#showcase .bg-light {
+  opacity: 0.7;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#showcase .btn {
+  margin: 20px;
+}
+
+#showcase .showcase-content a:hover {
+  background: #7b6729;
+  color: #d3ccb7;
+}
+
+/* Info */
+#info-main {
+  height: 400px;
+}
+
+#info-main .info-img {
+  background: url('../img/park2.jpeg') no-repeat center center/cover;
+  float: left;
+  width: 40%;
+  min-height: 100%;
+}
+
+#info-main .info-park {
+  float: right;
+  width: 60%;
+  padding: 60px;
+  height: 100%;
+  overflow: auto;
+}
+
+#info-main .info-park h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+#info-main .info-park p {
+  font-size: 20px;
+  text-align: justify;
+  line-height: 2em;
+}
+
+#info-main #park-message {
+    font-weight: bold;
+    text-align: center;
+
+}
+
+/* Features */
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  padding: 20px;
+}
+
+.box a {
+  display: inline-block;
+  padding: 20px;
+}
+
+.box p {
+  font-size: 20px;
+  line-height: 1.7em;
+}
+
+.box a:hover {
+  background: #7b6729;
+  color: #d3ccb7;
+}
+
+/* About Page */
+#about {
+  height: 400px;
+  padding: 30px;
+}
+
+#about .about-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+#about p {
+  text-align: justify;
+  font-size: 20px;
+}
+
+#about .about-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about .about-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 20%;
+  border: solid #000;
+}
+
+/* Testimony */
+
+#testimony {
+  height: 600px;
+  padding: 30px;
+  background: url('../img/patient-ball.jpeg');
+  text-align: center;
+  font-size: 40px;
+}
+
+/* Footer */
+#main-footer {
+  background: #2b2207;
+  color: #d3ccb7;
+  text-align: center;
+  padding: 20px;
+}
+
