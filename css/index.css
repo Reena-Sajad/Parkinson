@@ -21,7 +21,7 @@ a {
 /* Utilities */
 .container {
   margin: auto;
-  max-width: 1600px;
+  max-width: 1200px;
   overflow: auto;
   padding: 0 30px;
 }
@@ -120,34 +120,34 @@ a {
 /* Main */
 #main {
   background: url('../img/hands_blue.jpeg') no-repeat center center/cover;
-  height: 1000px;
+  height: 600px;
   overflow: auto;
 }
 
 #main .main-content {
-  padding-top: 150px;
+  padding: 40px;
   text-align: center;
 }
 
 #main .main-content h1 {
-  font-size: 8rem;
+  font-size: 6rem;
   color: #000828;
 }
 
 #main .main-content h2 {
-  font-size: 6rem;
+  font-size: 4rem;
   color: #000828;
 }
 
 #main .main-content p {
   color: #000c3d;
-  padding: 40px;
+  padding: 20px;
   background: #d8dffc;
   opacity: 0.7;
   border-radius: 15px;
   overflow: auto;
-  font-size: 3rem;
-  margin: 30px 0
+  font-size: 2rem;
+  margin: 25px 0
 }
 
 /* Info */
@@ -174,17 +174,17 @@ a {
 
 #info-main .info-park h2 {
   padding-top: 30px;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 #info-main .info-park p {
   padding: 20px;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 /* Features */
 .box {
-  height: 350px;
+  height: 300px;
   float: left;
   width: 33.33%;
   padding: 20px;
@@ -192,11 +192,11 @@ a {
 }
 
 .box i {
-  padding: 30px;
+  padding: 20px;
 }
 
 .box p {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 /* Footer */
