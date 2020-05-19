@@ -5,74 +5,87 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="descrption" content="Have you recently received a diagnosis of Parkinson's Disease? This website aims to provide information on Parkinson, tips contacts in Oxfordshire, UK">
   <meta name="keywords" content="Parkinson, Parkinson's Disease, diagnosis, information, Oxford, Oxfordshire, OUH, Oxford University Hospitals, NHS">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500&family=Roboto&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/b977b59468.js" crossorigin="anonymous"></script>
   <title>Parkinson's Disease | Information | Oxford University Hospitals - NHS</title>
-  <link rel="stylesheet" href="./css/index.css">
-  <link rel="stylesheet" media="screen and (max-width: 768px)" href="/css/mobile.css">
+  <link rel="stylesheet" href="/Parkinson/css/no-navbar.css">
+  <link rel="stylesheet" media="screen and (max-width: 768px)" href="/Parkinson/css/index.css">
 </head>
 
 <body>
   <header>
-    <nav id="navbar">
-      <div class="container">
-        <div class="logo"><a href="https://www.ouh.nhs.uk/" target="_blank"><img src="./img/OUH-logo-white.png" alt="logo OUH"></a></div>
-        <h1><a href="park_index_blue.html">Parkinson Information</a></h1>
-        <ul>
-          <li><a class="current" href="park_index_blue.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <div id="main">
-      <div class="container">
-        <div class="main-content">
-          <h1>Have you recently been diagnosed with <span class="color-heading">Parkinson's Disease</span>?</h1>
-          <h2>What's the next step?</h2>
-            <p>This website provides information for patients that have been newly diagnosed with Parkinson's Disease. Although contacts are mainly available for people living in Oxfordshire and South Northamptonshire, many useful tips and information are accessible for everyone.
-           <br> 
-           <br>
-            You will find explanations on symptoms, medicine management, details of the care Pathway for patients within the Oxford University Hospitals Trust and contact details for the local Parkinson's Disease Nurses.</p>
-            <a class="btn" href="/about.html">About this Website</a>
-        </div>
-      </div>
+     <div class="main">
+        <h1>Parkinson's Disease</h1>
+        <h2>Information Website</h2>
     </div>
   </header>
 
   <section id="info-main" class="bg-dark">
     <div class="info-img"></div>
     <div class="info-park">
+      <h2>Are you a patient referred to the Oxford University Hospitals Trust? <br> 
+        What's the next step?</h2>
+        <p>On this website you can find information about:</p> 
+          <ul>
+            <li>Symptoms</li>
+            <li>Medicine Management</li>
+            <li>Care Pathway</li>
+            <li>Specialist Nurses Contact Information</li>
+          </ul>
+          <br>
+          <p>Although contacts are mainly available for people living in Oxfordshire</strong> and <strong>South Northamptonshire</strong>, many useful tips and information are accessible for everyone.</p>
+          
+      <img src="/Parkinson/img/OUH-logo-white.png" alt="OUH logo" class="logo">
+
       <h2>What is Parkinson?</h2>
-      <p>Parkinson's Disease affects the neurons in the brain responsible for the release of dopamine, which is a chemical neuro-transmitter that helps your body move. Dopamine sends messages to the body to help control movements, but this action is affected when you have Parkinson.</p>
-      <br>
-      <p>It is very important to remember that Parkinson's disease affects people in many different ways, therefore your symptoms and treatment may be different from one person to another.</p>
+        <p>Parkinson's Disease affects the neurons in the brain responsible for the release of dopamine, which is a chemical neuro-transmitter that helps your body move. Dopamine sends messages to the body to help control movements, but this action is affected when you have Parkinson.</p>
+        <br>
+        <p>It is very important to remember that Parkinson's disease affects people in many different ways, therefore your symptoms and treatment may be different from one person to another.</p>
     </div>
   </section>
+
+  <section class="box-links bg-primary">
+    <div class="container">
+        <div class="box box1" >
+          <i class="fas fa-stethoscope fa-5x"></i>
+          <a href="#" class="button">Symptoms</a>
+          <p>You may experience some motor and non-motor symptoms. Find out more on the different symptoms of Parkinson.</p>
+        </div>
+      
+        <div class="box box2">
+          <i class="fas fa-tablets fa-5x"></i>
+          <a href="#" class="button">Treatments</a>
+          <p>Here are listed the different types of treatments for Parkinson, some advanced therapies and medication.</p>
+        </div>
+
+        <div class="box box3">
+          <i class="fas fa-info fa-5x"></i>
+          <a href="#" class="button">About</a>
+          <p>Information on how this website was created</p>
+        </div>
+
+        <div class="box box4">
+            <i class="far fa-address-book fa-5x"></i>
+            <a href="contact.html" class="button">Contacts</a>
+            <p>Patients accross Oxfordshire and South Northamptonshire can contact the Specialist Nurses from Oxford University Hospital Trust.</p>
+        </div>
+
+        <div class="box box5">
+          <i class="fas fa-hospital-user fa-5x"></i>
+          <a href="#" class="button">Care Pathway</a>
+          <p>Find out the timeline of your care for the next few months with your Consultant and Specialist Nurse.</p>
+        </div>
+    
+        <div class="box box6">
+          <i class="fas fa-clipboard-list fa-5x"></i>
+          <a href="#" class="button">Links</a>
+          <p>Some useful links to several organisations that may help you in your care.</p>
+        </div>
+    </div>
+   </section>
   
-  <section id="features">
-  <div class="box bg-light">
-      <i class="fas fa-stethoscope fa-5x"></i>
-      <h3><a class="btn btn-dark" href="symptoms.html">Symptoms</a></h3>
-      <p class="py-2">You may experience some motor and non-motor symptoms. On this page, you can find further descriptions of the different symptoms of Parkinson.</p>
-    </div>
-
-    <div class="box bg-primary">
-      <i class="fas fa-tablets fa-5x"></i>
-      <h3><a class="btn btn-dark"href="med-mgmt.html">Medicine Management</a></h3>
-      <p class="py-2">Here are listed the types of treatments for Parkinson, some advanced therapies and tips on how to manage your medication.</p>
-    </div>
-
-    <div class="box bg-light">
-      <i class="fas fa-hospital-user fa-5x"></i>
-      <h3><a class="btn btn-dark" href="pathway.html">Pathway</a></h3>
-      <p class="py-2">Find out what is the pathway of your care from the moment of your diagnosis and the different healthcare professionals you will meet.</p>
-    </div>
- </section>
-
- <div class="clr"></div>
-
+   <div class="clr"></div>
+  
  <footer id="footer">
    Sarah-May Archibald &copy;2020 All Rights Reserved
  </footer>
