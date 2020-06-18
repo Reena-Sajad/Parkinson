@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="descrption" content="Have you recently received a diagnosis of Parkinson's Disease? This website aims to provide information on Parkinson, tips and contacts in Oxfordshire, UK">
   <meta name="keywords" content="Parkinson, Parkinson's Disease, diagnosis, information, Oxford, Oxfordshire, OUH, Oxford University Hospitals NHS, John Radcliffe">
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500&family=Montserrat&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/b977b59468.js" crossorigin="anonymous"></script>
@@ -25,6 +26,8 @@
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#management">Management</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#links">Links</a></li>
           <li><a href="#contacts">Contacts</a></li>
         </ul>
       </nav>
@@ -49,7 +52,7 @@
         <div class="column-2">
           <h4>About This Website</h4>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate pariatur doloribus voluptas quis repellat excepturi id nulla, alias hic blanditiis laboriosam numquam, est facilis ipsa consectetur commodi distinctio sit animi.</p>
-          <a href="https://www.ouh.nhs.uk/default.aspx" class=" btn btn-dark"><i class="fas fa-chevron-right"></i> Oxford University Hospital Website</a>
+          <a href="https://www.ouh.nhs.uk/default.aspx" target="_blank" class=" btn btn-dark"><i class="fas fa-chevron-right"></i> Oxford University Hospital</a>
         </div>
       </div>
   </div>
@@ -57,7 +60,10 @@
 
 <!-- Management -->
 <section class="management icons" id="management">
-  <h2>Management</h2>
+  <header class="section-header">
+    <h2>Management</h2>
+  </header>
+  
   <div class="flex-items">
     <div>
       <i class="fas fa-book-medical fa-2x"></i>
@@ -80,6 +86,43 @@
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quam quisquam dolores iure eaque suscipit! Alias dolor eum ut laborum iste natus maxime autem odio, commodi numquam praesentium? Fugit, accusantium.</p>
     </div>
   </div>
+  
+</section>
+
+<!-- Research -->
+<section class="flex-columns flex-reverse" id="research">
+  <div class="row">
+    <div class="column bg-secondary">
+      <div class="column-1">
+        <img src="img/research.jpg" alt="">
+      </div>
+    </div>
+      <div class="column bg-secondary">
+        <div class="column-2">
+          <h4>Research</h4>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate pariatur doloribus voluptas quis repellat excepturi id nulla, alias hic blanditiis laboriosam numquam, est facilis ipsa consectetur commodi distinctio sit animi.</p>
+          <a href="https://www.opdc.ox.ac.uk/home" target="_blank" class=" btn btn-dark"><i class="fas fa-chevron-right"></i> Oxford Parkinson Disease Centre</a>
+        </div>
+      </div>
+  </div>
+</section>
+
+<!-- Links -->
+<section class="flex-columns" id="links">
+  <div class="row">
+    <div class="column">
+      <div class="column-1">
+        <img src="img/websites.jpg" alt="">
+      </div>
+    </div>
+      <div class="column bg-primary">
+        <div class="column-2">
+          <h4>Links</h4>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate pariatur doloribus voluptas quis repellat excepturi id nulla, alias hic blanditiis laboriosam numquam, est facilis ipsa consectetur commodi distinctio sit animi.</p>
+          <a href="#" target="_blank" class="btn btn-dark"><i class="fas fa-chevron-right"></i> Read More</a>
+        </div>
+      </div>
+  </div>
 </section>
 
 <!-- Testimony -->
@@ -99,25 +142,73 @@
   </div>
 </section>
 
-<!-- Contacts -->
-<section class="contacts flex-grid section-padding" id="contacts">
+<!-- Contact -->
+<section class="contacts icons bg-dark" id="contacts">
   <header class="section-header">
-    <h4>Contacts & Links</h4>
-    <p>Here are some links about your care pathway and various contacts.</p>
+    <h2>Contacts</h2>
+    <p>In this section, you will find the contact details of the Oxfordshire Parkinson's Disease Specialist Nurse service.</p>
+    <p>They are here to support you, your family members as well as your carers and any healthcare professionals.</p>
   </header>
-  <div class="row">
-    <div class="column">
-      <img src="img/pathway.jpg" alt="">
+  <div class="flex-items">
+    <div>
+      <i class="fas fa-address-book fa-2x"></i>
+      <h3>Mabel Eghaghe</h3>
+      <h4><span class="text-light"> Hospital</span> Parkinson Disease Specialist Nurse</h4>
+      <p>Tel:<span class="text-light"> 01865 234 048</span></p>
+      <p>Administrator Office: <span class="text-light"> 01865 231 295</span></p>
+      <p>Address:</p>
+      <p>Neurosciences Offices, West Wing, Level 3</p>
+      <p>John Radcliffe Hospital, Oxford</p>
     </div>
-    <div class="column">
-      <img src="img/contacts.jpg" alt="">
+    <div>
+      <i class="fas fa-address-book fa-2x"></i>
+      <h3>Jo Bromley</h3>
+      <h4><span class="text-light"> Community</span> Parkinson Disease Specialist Nurse</h4>
+      <p>Tel: <span class="text-light"> 01865 737 225</span></p>
+      <p>Address:</p>
+      <p>Community Neurology Specialist Nurse Service, OCE</p>
+      <p>Nuffield Orthopaedic Centre, Oxford</p>
+      <p><span class="text-light">Areas covered:</span> Wheatley, Cumnor (City), West, Vale, South Oxfordshire</p>
     </div>
-    <div class="column">
-      <img src="img/websites.jpg" alt="">
+    <div>
+      <i class="fas fa-address-book fa-2x"></i>
+      <h3>Nicola Findlay</h3>
+      <h4><span class="text-light"> Community</span> Parkinson Disease Specialist Nurse</h4>
+      <p>Tel: <span class="text-light"> 01865 737 368</span></p>
+      <p>Address:</p>
+      <p>Community Neurology Specialist Nurse Service, OCE</p>
+      <p>Nuffield Orthopaedic Centre, Oxford</p>
+      <p><span class="text-light">Areas covered:</span> North Oxfordshire and South Northamptonshire</p>
     </div>
   </div>
 </section>
 
+<!-- Maps -->
+<section class="maps" id="maps">
+  <header class="section-header">
+    <h2>Maps</h2>
+  </header>
+  
+  <div class="flex-items">
+    <div>
+      <h3>John Radcliffe Hospital</h3>
+      <p>Headley Way, Headington, Oxford OX3 9DU</p>
+      <p>Tel: 0300 304 7777</p>
+      <a href="https://www.ouh.nhs.uk/hospitals/jr/default.aspx" target="_blank" class="btn btn-dark"><i class="fas fa-chevron-right "></i> Website</a>
+    </div>
+    <div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4972.9923356193385!2d-1.223410691184342!3d51.76374691202733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c3dfab89c7a3%3A0x8430b093e3a99f33!2sJohn%20Radcliffe%20Hospital!5e0!3m2!1sen!2suk!4v1592504933351!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <div>
+      <h3>Nuffield Orthopaedic Centre</h3>
+      <p>Windmill Rd, Oxford OX3 7LD</p>
+      <p>Tel: 0300 304 7777</p>
+      <a href="https://www.ouh.nhs.uk/hospitals/noc/default.aspx" target="_blank" class=" btn btn-dark"><i class="fas fa-chevron-right "></i> Website</a>
+    </div>
+    <div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.857690340937!2d-1.2110623479383333!3d51.75392577957661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c17b25f47315%3A0xbca5d71d316d1a65!2sNuffield%20Orthopaedic%20Centre!5e0!3m2!1sen!2suk!4v1592504986441!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+</section>
 </main>
 
 </body>

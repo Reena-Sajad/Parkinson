@@ -38,6 +38,10 @@ img {
   color: #3282b8;
 }
 
+.text-light {
+  color: #bbe1fa;
+}
+
 /* Buttons */
 .btn {
   cursor: pointer;
@@ -58,6 +62,11 @@ img {
   color: #1b262c;
 }
 
+.btn-medium {
+  background-color: #3282b8;
+  color: #fff;
+}
+
 .btn-dark {
   background-color: #1b262c;
   color: #bbe1fa;
@@ -71,12 +80,29 @@ img {
 
 .bg-secondary {
   background-color: #3282b8;
-color: #1b262c;
+  color: #000;;
 }
 
 .bg-dark {
   background-color: #1b262c;
   color: #bbe1fa;
+}
+
+/* Section Header */
+.section-header {
+  margin: 40px 0;
+}
+.section-header h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  margin-bottom: 20px;
+  color: #0f4c75;
+}
+
+.section-header p {
+  text-align: center;
+  font-size: 20px;
 }
 
 /* Navbar */
@@ -110,7 +136,7 @@ color: #1b262c;
 
 /* Header */
 .hero {
-  background: url('../img/hands-bw.jpeg') no-repeat center center/cover;
+  background: url('../img/hands-blue.jpeg') no-repeat center center/cover;
   height: 100vh;
   position: relative;
   color: #bbe1fa;
@@ -164,15 +190,6 @@ color: #1b262c;
   padding: 1rem;
   border-radius: 50%;
   margin-bottom: 15px;
-}
-
-/* Management */
-.management h2 {
-  text-align: center;
-  font-size: 40px;
-  font-weight: 100;
-  margin-bottom: 10px;
-  color: #0f4c75;
 }
 
 /* Flex items */
@@ -246,29 +263,6 @@ color: #1b262c;
   background: rgba(0,0,0,0.4)
 }
 
-/* Contacts */
-.contacts img:hover {
-  opacity: 0.7;
-}
-
-.section-header {
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.section-header h4 {
-  font-size: 40px;
-  margin: 20px;
-}
-
-.section-padding {
-  padding: 20px 20px 40px;
-}
-
 .flex-grid .row {
   display: flex;
   flex-wrap: wrap;
@@ -286,6 +280,27 @@ color: #1b262c;
   flex-direction: row-reverse;
 }
 
+/* Contact */
+.contacts {
+  color: #3282b8;
+  font-size: 20px;
+}
+
+.contacts h2 {
+  color: #bbe1fa;
+}
+
+.contacts h3 {
+  font-size: 25px;
+  color: #fff;
+}
+
+.contacts h4 {
+  font-size: 20px;
+  border-bottom: solid 2px #bbe1fa;
+  padding-bottom: 20px;
+}
+
 /* Footer */
 footer {
   height: 100%;
@@ -294,6 +309,6 @@ footer {
 
 footer p {
   padding: 10px;
-  margin: 20px 10px 0;
+  margin: 0 10px;
   text-align: center;
 }
