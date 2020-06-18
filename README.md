@@ -9,4 +9,6 @@ The original leaflet can be found in a PDF format under the title "Have you rece
 
 **Technologies used**
 
-This webpage uses HTML and CSS. As a first project, "float" was used to get familiar with the concept before using MediaQueries on further repositories. 
+This webpage uses HTML and CSS. At first, "float" was used to get familiar with the concepts before using "Flexbox". 
+
+**Responsive Design**
