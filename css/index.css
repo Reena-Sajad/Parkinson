@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #1b1b2f;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+/* Sidebar */
+
+.nav a {
+  color: #e43f5a;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  margin: 15px;
+}
+/* Header */
+.header {
+  background-image: url('/img/hands-bw.jpeg');
+  background-size: cover;
+}
+  
+  /* Jumbotron */
+.jumbotron {
+  background: rgba(27, 27, 047, 0.8);
+}
+
+/* Main sections */
+.info p {
+  width: 80%;
+  font-size: 1.5rem;
+}
+
+/* Sections */
+.text-odd {
+  background: #1f4068;
+}
+
+.text-even {
+  background: #162447;
+}
+
+/* Pathway */
+.pink {
+  background: #e43f5a;
+}
+
+.boxes {
+  width: 60%;
+}
+
+/* Contact */
+.card {
+  background: #1b1b2f
+}
+
+/* Footer */
+footer, a {
+  color: #1f4068;
+}
