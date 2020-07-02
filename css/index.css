@@ -8,35 +8,40 @@ html, body {
   font-family: 'Nunito', sans-serif;
   background-color: #1b1b2f;
   color: #fff;
+  font-size: 1.2rem;
 }
 
 h1 {
   font-family: 'Abril Fatface', cursive;
 }
 
-a {
-  text-decoration: none;
+h3 {
+  padding: 20px 20px 0;
 }
 
 ul {
   height: 100%;
 }
 
-li {
-  list-style: none;
+img {
+  object-fit: cover;
 }
 
 /* Sidebar */
-
 .nav a {
   color: #e43f5a;
   font-size: 1.5rem;
   font-weight: lighter;
   margin: 15px;
 }
+
+.nav a:hover {
+  color: #fff;
+}
+
 /* Header */
 .header {
-  background-image: url('/img/hands-bw.jpeg');
+  background-image: url('../img/hands-bw.jpeg');
   background-size: cover;
 }
   
@@ -46,9 +51,21 @@ li {
 }
 
 /* Main sections */
-.info p {
+#info p {
   width: 80%;
-  font-size: 1.5rem;
+}
+
+#info img {
+  min-height: 100%;
+}
+
+#info a {
+  color: #e43f5a;
+  text-decoration: none;
+}
+
+#info a:hover {
+  color: #1b1b2f;
 }
 
 /* Sections */
@@ -65,14 +82,47 @@ li {
   background: #e43f5a;
 }
 
-.boxes {
-  width: 60%;
+#pathway p {
+    padding: 10px 30px;
+    font-size: 1.2rem;
 }
 
+#pathway li {
+  font-size: 1.2rem;
+}
 /* Contact */
 .card {
   background: #1b1b2f
 }
+
+/* Find Us */
+#findUs a:hover {
+  background: #e43f5a;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+/* Links */
+.box {
+  height: 580px;
+  min-height: 100%;
+}
+
+.box-1 {
+  height: 700px;
+  min-height: 100%;
+}
+
+#links a {
+  color: #e43f5a;
+}
+
+#links a:hover {
+  background: #162447;
+  color: #fff;
+}
+
 
 /* Footer */
 footer, a {
