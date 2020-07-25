@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'Barlow', sans-serif;
+  background-color: #1b1b2f;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+/* Buttons */
+.btn-pink {
+  background-color: #e43f5a;
+  color: #fff;
+  margin: 5px;
+}
+
+.btn-pink:hover {
+  background-color: #fff;
+  color: #e43f5a;
+}
+
+/* Sections Title */
+.section-title {
+  margin: 30px 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.section-title h2 {
+  text-transform: uppercase;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #1b1b2f;
+}
+
+#navbarNav .nav-link:hover {
+  color: #e43f5a;
+}
+
+/* Header */
+header {
+  background-image: url('../img/hands-bw.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* height: 70vh; */
+}
+
+header .btn-pink {
+  margin: 5px 0;
+  width: 80%;
+}
+  
+/* Jumbotron */
+.jumbotron {
+  background-color: rgba(27, 27, 047, 0.8);
+  color: #fff;
+  margin-top: 55px;
+  height: 100%;
+}
+
+.jumbotron hr {
+  border-bottom: 2px solid #fff;
+  width: 50%;
+}
+
+/* Main */
+/* Info */
+.card {
+  width: 36px;
+  background-color: #1f4068;
+}
+
+/* Pathway Chart */
+.pathway-step {
+  padding: 15px;
+}
+
+/* Testimony */
+.testimony .container {
+  background-color: #162447;
+  border-radius: 50%;
+}
+
+/* Contacts */
+.contacts .card-body {
+  text-align: left;
+}
+
+/* Links */
+.links-group {
+  background-color: #162447;
+  padding: 20px;
+}
+
+.links-group h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  color: #162447;
+  
+}
+footer p {
+  display: inline-block;
+  margin: 20px;
+}
+
+footer a {
+  color: #162447;
+}
+
+footer a:hover {
+  color: #1f4068;
+  text-decoration: none;
+}
+
+@media (min-width:300px) and (max-width:1024px)
+{
+  .card-deck {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    width: auto;
+  }
+
+  footer p {
+    margin: 10px 20px;
+  }
+}
+
+@media (max-width: 568px) {
+  /* Navbar */
+  .navbar-collapse {
+    background-color: #1b1b2f;
+    padding: 20px;
+  }
+
+  .nav-link {
+    border-bottom: 1px dotted #e43f5a;
+  }
+
+  /* Header */
+  header {
+    background-image: none;
+    padding: 0 20px;
+    margin: 0;
+  }
+  .jumbotron {
+    width: 100%;
+  }
+
+  .jumbotron h1 {
+    font-size: 2rem;
+  }
+
+  /* Pathway Chart */
+  .pathway-chart {
+    padding: 5px;
+  }
+
+  /* Links */
+  .links-group h5 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+}
+
+@media (min-width: 568px) and (max-width: 1023px) {
+  /* Links  */
+  .links-group h5 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+}
+
+@media (min-width:1024px) {
+  /* Links */
+  body {
+    font-size: 1.2rem;
+  }
+
+  header {
+    height: 80vh;
+  }
+}
+
