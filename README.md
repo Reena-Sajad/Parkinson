@@ -9,6 +9,6 @@ The original leaflet can be found in a PDF format under the title "Have you rece
 
 **Technologies used**
 
-This webpage uses HTML and CSS. At first, "float" was used to get familiar with the concepts before using "Flexbox". 
+This webpage uses HTML and CSS. At first, "float" was used to get familiar with the concepts of compartmentalising contents before using "Flexbox". Once familiar with "Flexbox" and the Grid System, Bootstrap 4 was added.
 
 **Responsive Design**
